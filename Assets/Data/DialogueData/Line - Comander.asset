@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fef95bcd996f00f4bbf57dc17ae12008, type: 3}
+  m_Name: Line - Comander
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
+  dialogueGroupName: Comander
+  speaker: {fileID: 11400000, guid: 213635fa17358694aa743a3c4d0fd4ec, type: 2}
+  textLine:
+  - "Voltou outra vez? Quer revisar o treinamento ou s\xF3 veio dar uma olhada no
+    estoque?"
+  - Quer treinar mais um pouco ou veio apenas guardar seus itens?
+  - "Ent\xE3o, o que vai ser? Equipamentos novos ou mais algumas li\xE7\xF5es de
+    combate?"
+  playerChoiceAnswer: 
+  choiceLines:
+  - {fileID: 11400000, guid: 0062a23e91b901746bf86603dc945430, type: 2}
+  - {fileID: 11400000, guid: fa2c42a1c13a09e48af0d51d14021ab6, type: 2}
+  - {fileID: 11400000, guid: a078d28b2045b274ea5aaa53eca8c298, type: 2}
+  actionLine: 
+  actionType: 3

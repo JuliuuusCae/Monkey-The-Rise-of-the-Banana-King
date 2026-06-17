@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c283f7f9ed4bffa4a9571e514437c3d2, type: 3}
+  m_Name: Skill Data - Time Barrage
+  m_EditorClassIdentifier: Assembly-CSharp::Skill_DataSO
+  displayName: "F\xFAria Espectral"
+  description: O eco pode realizar 3 ataques.
+  icon: {fileID: -4618432916107356695, guid: d499895722f055f43ba4d3341511797b, type: 3}
+  cost: 2
+  unlockByDefault: 0
+  skillType: 1
+  upgradeData:
+    upgradeType: 13
+    cooldown: 3

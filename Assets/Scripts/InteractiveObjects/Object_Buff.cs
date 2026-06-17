@@ -1,0 +1,39 @@
+using UnityEngine;
+using System.Collections;
+
+public class Object_Buff : MonoBehaviour
+{
+    private Player_Stats statsToModify;
+
+    [Header("Buff Settings")]
+    [SerializeField] private BuffEffect_Data[] buffs;
+    [SerializeField] private string buffName;
+    [SerializeField] private float buffDuration = 4f;
+
+    [Header("Buff Movement")]
+    [SerializeField] private float floatSpeed = 1f;
+    [SerializeField] private float floatRange = 0.1f;
+    private Vector3 startPosition;
+
+    private void Awake()
+    {
+        startPosition = transform.position;
+    }
+
+    private void Update()
+    {
+        float yOffset = Mathf.Sin(Time.time * floatSpeed) * floatRange;
+        transform.position = startPosition + new Vector3(0, yOffset);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        statsToModify = collision.GetComponent<Player_Stats>();
+
+        if (statsToModify.CanApplyBuffOf(buffName))
+        {
+            statsToModify.ApplyBuff(buffs, buffDuration, buffName);
+            Destroy(gameObject);
+        }
+    }
+}

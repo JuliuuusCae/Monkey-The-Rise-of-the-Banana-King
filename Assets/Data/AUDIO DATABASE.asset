@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3acf23db5c1bf14499123df3a7d4a40, type: 3}
+  m_Name: AUDIO DATABASE
+  m_EditorClassIdentifier: Assembly-CSharp::Audio_DatabaseSO
+  player:
+  - audioName: player_attackHit
+    clips:
+    - {fileID: 8300000, guid: 423fd172c84cf6c4184c348f6ad6ad06, type: 3}
+    - {fileID: 8300000, guid: e363b309bf0735d4d9c5910dbf778abb, type: 3}
+    - {fileID: 8300000, guid: 28323255597b7b7468c42c5d11503243, type: 3}
+    maxVolume: 0.6
+  - audioName: player_attackMiss
+    clips:
+    - {fileID: 8300000, guid: 04c2c8004de8c9542b72e5a647162a45, type: 3}
+    - {fileID: 8300000, guid: 23fad09ea8d35754c816bbe2e6200226, type: 3}
+    - {fileID: 8300000, guid: 6069fe76de21aa14785f67117e03d988, type: 3}
+    maxVolume: 0.6
+  - audioName: player_dash
+    clips:
+    - {fileID: 8300000, guid: 0e149916021ffe04eb1ecd1dd14cc1b0, type: 3}
+    maxVolume: 0.6
+  - audioName: player_move
+    clips:
+    - {fileID: 8300000, guid: 0d1792a6930da324d900a8a4eed411a8, type: 3}
+    - {fileID: 8300000, guid: ea5e2df1235cf0e4b86a059274db5612, type: 3}
+    - {fileID: 8300000, guid: b9d257ca3da685148b55095e9b603993, type: 3}
+    maxVolume: 0.6
+  - audioName: player_jump
+    clips:
+    - {fileID: 8300000, guid: 61329496fa323ed45be3862231f89b99, type: 3}
+    - {fileID: 8300000, guid: d59a72bbb6b91c349b103490cd2e9864, type: 3}
+    - {fileID: 8300000, guid: b376e44d3a0f8fb4babab31d1be9c4db, type: 3}
+    maxVolume: 0.6
+  - audioName: player_stunned
+    clips:
+    - {fileID: 8300000, guid: 0a708b34dcf8bfd44902afe5ff85f972, type: 3}
+    - {fileID: 8300000, guid: ff378648cd3c258438bfdaf94a1e7732, type: 3}
+    maxVolume: 0.6
+  - audioName: player_death
+    clips:
+    - {fileID: 8300000, guid: 960297170d2f7ec4c914380b83695ea3, type: 3}
+    maxVolume: 0.8
+  - audioName: skeleton_attack
+    clips:
+    - {fileID: 8300000, guid: 72b7915041b8bd044a4ed8c10811a2f5, type: 3}
+    - {fileID: 8300000, guid: a47756e8eae73d14da81d6ac4696282e, type: 3}
+    - {fileID: 8300000, guid: f58ac6d7f3d3ee1478b5bd1cb3dac284, type: 3}
+    maxVolume: 0.6
+  - audioName: boar_attack
+    clips:
+    - {fileID: 8300000, guid: 62427d655df03e04b8f12229a9d75ca1, type: 3}
+    - {fileID: 8300000, guid: 4b4ba0ea6b885be439e0b47d5cbf87b0, type: 3}
+    - {fileID: 8300000, guid: 560dabc9ab35cee4884e68b35faa5a71, type: 3}
+    maxVolume: 0.6
+  - audioName: mushroom_attack
+    clips:
+    - {fileID: 8300000, guid: d7bf48147efce2643864a369512eb28f, type: 3}
+    - {fileID: 8300000, guid: c3b4d37d9b9315e44bbdda6a41722a8b, type: 3}
+    - {fileID: 8300000, guid: 3b630429ea9b0274b8a8cfad43796826, type: 3}
+    maxVolume: 0.6
+  - audioName: enemy_death
+    clips:
+    - {fileID: 8300000, guid: b49b52e775862dd4c953fe9f89478846, type: 3}
+    maxVolume: 0.6
+  - audioName: minotaur_attack
+    clips:
+    - {fileID: 8300000, guid: ee2fd2996a8b25b4b9490a355ee4963c, type: 3}
+    maxVolume: 0.6
+  - audioName: minotaur_death
+    clips:
+    - {fileID: 8300000, guid: 71509eb37f93b284c906a79da16ed1c2, type: 3}
+    maxVolume: 0.6
+  uiAudio:
+  - audioName: button_click
+    clips:
+    - {fileID: 8300000, guid: 75a87f22f99804940ac97982cc6ecb8d, type: 3}
+    maxVolume: 0.6
+  - audioName: dialogue_typing
+    clips:
+    - {fileID: 8300000, guid: c5ef7f1aca9fccc478ca4ccc5b2f77ef, type: 3}
+    maxVolume: 0.4
+  mainMenuMusic:
+  - audioName: playlist_mainMenu
+    clips:
+    - {fileID: 8300000, guid: 7149a2932b1cd014686e8b41c227f81c, type: 3}
+    maxVolume: 0.6
+  townMusic:
+  - audioName: playlist_level0
+    clips:
+    - {fileID: 8300000, guid: f4ddac26352a16b45ba45dee1057f4cc, type: 3}
+    maxVolume: 0.6
+  levelMusic:
+  - audioName: playlist_level1And2
+    clips:
+    - {fileID: 8300000, guid: e989c6d58e9e39e4b8f034b77018d38f, type: 3}
+    - {fileID: 8300000, guid: da1fb945f316a7b44ad9be30b6348f65, type: 3}
+    maxVolume: 0.5
+  bossMusic:
+  - audioName: playlist_bossFight
+    clips:
+    - {fileID: 8300000, guid: 0261769bebb678441b3dfb15f8bc217c, type: 3}
+    maxVolume: 0.6

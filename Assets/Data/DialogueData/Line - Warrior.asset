@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fef95bcd996f00f4bbf57dc17ae12008, type: 3}
+  m_Name: Line - Warrior
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
+  dialogueGroupName: Warrior
+  speaker: {fileID: 11400000, guid: 5a32dfecf88985c43ba22eb30ffa9b83, type: 2}
+  textLine:
+  - "VOC\xCA! Voc\xEA com a espada, pode nos ajudar?! Meu nome \xE9 Son Wukong, sou
+    o her\xF3i desta vila."
+  playerChoiceAnswer: 
+  choiceLines:
+  - {fileID: 11400000, guid: 72ef6c4573dc4864bbb9a35fa2d032e1, type: 2}
+  actionLine: 
+  actionType: 3

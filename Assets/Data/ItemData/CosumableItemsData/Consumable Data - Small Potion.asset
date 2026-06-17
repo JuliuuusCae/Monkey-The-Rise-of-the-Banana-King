@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb6c1fa3e0a4ae428b372ee824371d7, type: 3}
+  m_Name: Consumable Data - Small Potion
+  m_EditorClassIdentifier: Assembly-CSharp::ConsumableItemDataSO
+  itemPrice: 25
+  minStackSizeAtShop: 5
+  maxStackSizeAtShop: 10
+  itemRarityType: 1
+  itemRarity: 300
+  dropChance: 70.1
+  maxDropChance: 100
+  itemName: "Po\xE7\xE3o Pequena"
+  itemIcon: {fileID: 976571796137679563, guid: d499895722f055f43ba4d3341511797b, type: 3}
+  itemType: 4
+  maxStackSize: 10
+  itemEffect: {fileID: 11400000, guid: 906bf4bb7c39ccd48a8370b9408e92ea, type: 2}

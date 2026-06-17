@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb6c1fa3e0a4ae428b372ee824371d7, type: 3}
+  m_Name: Consumable Data - Torch Key
+  m_EditorClassIdentifier: Assembly-CSharp::ConsumableItemDataSO
+  itemPrice: 200
+  minStackSizeAtShop: 1
+  maxStackSizeAtShop: 1
+  itemRarityType: 1
+  itemRarity: 100
+  dropChance: 90.1
+  maxDropChance: 100
+  itemName: Tocha
+  itemIcon: {fileID: -8065553011085915719, guid: d499895722f055f43ba4d3341511797b, type: 3}
+  itemType: 4
+  maxStackSize: 1
+  itemEffect: {fileID: 11400000, guid: 1058d2edd377c664db26c153847b70b6, type: 2}

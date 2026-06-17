@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fec44412456e2dc4fb0c574be2989aed, type: 3}
+  m_Name: Material Data - Bone
+  m_EditorClassIdentifier: Assembly-CSharp::Item_DataSO
+  itemPrice: 26
+  minStackSizeAtShop: 1
+  maxStackSizeAtShop: 5
+  itemRarityType: 0
+  itemRarity: 0
+  dropChance: 100
+  maxDropChance: 100
+  itemName: Osso
+  itemIcon: {fileID: 4099412545580532048, guid: d499895722f055f43ba4d3341511797b, type: 3}
+  itemType: 0
+  maxStackSize: 10
+  itemEffect: {fileID: 0}

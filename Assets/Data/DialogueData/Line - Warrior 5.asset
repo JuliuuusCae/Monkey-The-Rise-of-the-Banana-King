@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fef95bcd996f00f4bbf57dc17ae12008, type: 3}
+  m_Name: Line - Warrior 5
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
+  dialogueGroupName: Warrior
+  speaker: {fileID: 11400000, guid: 5a32dfecf88985c43ba22eb30ffa9b83, type: 2}
+  textLine: []
+  playerChoiceAnswer: Cuide dos que ficam, Wukong. Quando eu voltar, tudo vai estar
+    em ordem novamente.
+  choiceLines: []
+  actionLine: "Muito obrigado! Estaremos com uma d\xEDvida eterna com voc\xEA."
+  actionType: 4

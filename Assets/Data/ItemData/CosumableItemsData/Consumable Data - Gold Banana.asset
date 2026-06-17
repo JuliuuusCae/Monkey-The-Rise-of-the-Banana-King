@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb6c1fa3e0a4ae428b372ee824371d7, type: 3}
+  m_Name: Consumable Data - Gold Banana
+  m_EditorClassIdentifier: Assembly-CSharp::ConsumableItemDataSO
+  itemPrice: 0
+  minStackSizeAtShop: 0
+  maxStackSizeAtShop: 0
+  itemRarityType: 4
+  itemRarity: 300
+  dropChance: 70.1
+  maxDropChance: 100
+  itemName: Banana Dourada
+  itemIcon: {fileID: -1852611027068613665, guid: d499895722f055f43ba4d3341511797b, type: 3}
+  itemType: 4
+  maxStackSize: 99
+  itemEffect: {fileID: 11400000, guid: ccb4c97291789e34f929e043e59736c4, type: 2}

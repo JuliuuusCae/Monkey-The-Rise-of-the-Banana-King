@@ -1,0 +1,57 @@
+using UnityEngine;
+
+public class SkillObject_Shard : SkillObject_Base
+{
+
+    [SerializeField] private GameObject vfxPrefab;
+
+    private Transform target;
+    private float speed;
+
+    private void Update()
+    {
+        if (target == null)
+            return;
+        transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+    }
+
+    public void MoveTowardsClosestTarget(float speed)
+    {
+        target = FindClosestTarget();
+        this.speed = speed;
+    }
+
+    public void MoveTowardsClosestTarget(float speed, float delay)
+    {
+        StartCoroutine(MoveAfterDelay(speed, delay));
+    }
+
+    private System.Collections.IEnumerator MoveAfterDelay(float speed, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        target = FindClosestTarget();
+        this.speed = speed;
+    }
+
+    public void SetupShard(float detonationTime)
+    {
+        Invoke(nameof(Explode), detonationTime);
+    }
+
+    private void Explode()
+    {
+        DamageEnemiesInRadius(transform, checkRadius);
+        Instantiate(vfxPrefab, transform.position, Quaternion.identity);
+
+        Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.GetComponent<Enemy>() == null)
+            return;
+
+        Explode();
+    }
+
+}

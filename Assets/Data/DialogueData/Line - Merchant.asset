@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fef95bcd996f00f4bbf57dc17ae12008, type: 3}
+  m_Name: Line - Merchant
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
+  dialogueGroupName: Merchant
+  speaker: {fileID: 11400000, guid: 8887e4d2a7e2eab45bbf86494b3d5f42, type: 2}
+  textLine:
+  - "Ah, um cliente de confian\xE7a. D\xEA uma olhada nas mercadorias."
+  - "Os caminhos l\xE1 fora est\xE3o perigosos. Melhor se preparar antes de partir."
+  - "Ent\xE3o, aventureiro... o que vai ser hoje?"
+  - "N\xE3o fique s\xF3 olhando, algumas dessas pe\xE7as n\xE3o duram muito na prateleira."
+  playerChoiceAnswer: 
+  choiceLines:
+  - {fileID: 11400000, guid: a9c857ff1f7fa224e8a6174318d266db, type: 2}
+  - {fileID: 11400000, guid: 1726f6acb62bd7d4795e59f32040a070, type: 2}
+  actionLine: 
+  actionType: 3

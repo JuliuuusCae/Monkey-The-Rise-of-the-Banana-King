@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1707734734d5f7a42bb7347915733662, type: 3}
+  m_Name: List Of Items - Merchant's Item List
+  m_EditorClassIdentifier: Assembly-CSharp::ItemList_DataSO
+  itemList:
+  - {fileID: 11400000, guid: b5febacfd3aa8db41802302970e52047, type: 2}
+  - {fileID: 11400000, guid: 763baf14ef3ab2e4b96a3783feda380a, type: 2}
+  - {fileID: 11400000, guid: 7cb91d3fc2964e3499fb659a0a2283ad, type: 2}
+  - {fileID: 11400000, guid: 374fd9d56cffdab45a376870983a19a6, type: 2}
+  - {fileID: 11400000, guid: 7398a68fcd4026f42beb11aa50501ae6, type: 2}
+  - {fileID: 11400000, guid: 1bf9b6eda514a1e4dab24edc4f8314bd, type: 2}
+  - {fileID: 11400000, guid: cd00196739dfcc4439abc914ca44411c, type: 2}
+  - {fileID: 11400000, guid: 5eb148f34fab2ff4880d1a18a512150d, type: 2}
+  - {fileID: 11400000, guid: db1b39e22f3b8de458e16a93df788742, type: 2}
+  - {fileID: 11400000, guid: 6ea2cb099bd55504a83b357a6eceb7fb, type: 2}

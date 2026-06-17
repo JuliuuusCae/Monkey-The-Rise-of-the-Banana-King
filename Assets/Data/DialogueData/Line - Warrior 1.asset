@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fef95bcd996f00f4bbf57dc17ae12008, type: 3}
+  m_Name: Line - Warrior 1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
+  dialogueGroupName: Warrior
+  speaker: {fileID: 11400000, guid: 5a32dfecf88985c43ba22eb30ffa9b83, type: 2}
+  textLine:
+  - "Um gigante. Um inimigo antigo que dormia h\xE1 s\xE9culos nas profundezas da
+    mata. Ele acordou. Minha fam\xEDlia \xE9 guardi\xE3 desta vila h\xE1 gera\xE7\xF5es.
+    Mas n\xE3o fui r\xE1pido o suficiente para salvar tudo."
+  playerChoiceAnswer: '[CONTINUAR]'
+  choiceLines:
+  - {fileID: 11400000, guid: eeef21625b381044d83e2ead63f2a7a5, type: 2}
+  actionLine: 
+  actionType: 3

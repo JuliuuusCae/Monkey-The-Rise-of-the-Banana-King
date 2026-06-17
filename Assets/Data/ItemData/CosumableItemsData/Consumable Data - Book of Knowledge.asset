@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb6c1fa3e0a4ae428b372ee824371d7, type: 3}
+  m_Name: Consumable Data - Book of Knowledge
+  m_EditorClassIdentifier: Assembly-CSharp::ConsumableItemDataSO
+  itemPrice: 200
+  minStackSizeAtShop: 1
+  maxStackSizeAtShop: 5
+  itemRarityType: 3
+  itemRarity: 850
+  dropChance: 15.1
+  maxDropChance: 65
+  itemName: Livro do Conhecimento
+  itemIcon: {fileID: -4075449396690344557, guid: d499895722f055f43ba4d3341511797b, type: 3}
+  itemType: 4
+  maxStackSize: 10
+  itemEffect: {fileID: 11400000, guid: 29d8beba5cad1914894609abe2ed336b, type: 2}
